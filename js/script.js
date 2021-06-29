@@ -90,9 +90,6 @@ var checkColorModeInitial = () => {
 }
 
 
-
-import { AIRTABLE_API_KEY } from "./apikey.js"
-
 let counterNumber = document.querySelector('.counter_number')
 let counterPlus = document.querySelector('.counter_plus')
 let counterMinus = document.querySelector('.counter_minus')
