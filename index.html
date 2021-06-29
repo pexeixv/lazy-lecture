@@ -5,14 +5,46 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="shortcut icon" href="//gavinpereira.in/img/logo.svg" type="image/x-icon">
+    <title>Lazy Lecture</title>
+    <link rel="shortcut icon" href="//gavinpereira.in/img/fav/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="sass/style.css">
-    <script src="js/script.js" defer></script>
+    <script src="js/script.js" defer type="module"></script>
 </head>
 
 <body>
+    <a href="//github.com/pexeixv/lazy-lecture" class="fork" target="_blank">
+        <img src="img/fork.png">
+    </a>
 
+    <button onclick="toggleColorMode()">
+        <img class="color-mode" src="">
+    </button>
+
+    <main>
+        <div class="main_inner inner">
+            <h1>Lazy Lecture</h1>
+
+            <label for="accountIndex">Select Account Index</label>
+            <div class="counter">
+
+                <button class="counter_minus counter_sign" onclick="updateCounter('-')">
+                    <img src="img/minus.svg">
+                </button>
+
+
+                <span class="counter_number"></span>
+
+                <button class="counter_plus counter_sign" onclick="updateCounter('+')">
+                    <img src="img/plus.svg">
+                </button>
+
+            </div>
+
+
+
+            <div class="container"></div>
+        </div>
+    </main>
 
 
 </body>
