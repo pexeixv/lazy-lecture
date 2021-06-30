@@ -1,5 +1,5 @@
 var fetchClasses = async () => {
-    var res = (await fetch('/.netlify/functions/getClasses')).json()
+    var res = (await fetch('/.netlify/functions/get-classes')).json()
     return res
 }
 
