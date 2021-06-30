@@ -1,20 +1,3 @@
-var _fetchClasses = () => {
-    var url = `https://api.airtable.com/v0/appiaoTw3dT0mkQUJ/GoogleMeet?sort%5B0%5D%5Bfield%5D=id&sort%5B0%5D%5Bdirection%5D=asc`
-    var AIRTABLE_API_KEY = 'keyLmJYlcyCYWbel0'
-    var xhr = new XMLHttpRequest();
-    xhr.open("GET", url, false);
-
-    xhr.setRequestHeader("Accept", "application/json");
-    xhr.setRequestHeader("Authorization", `Bearer ${AIRTABLE_API_KEY}`);
-
-    xhr.onreadystatechange = function () {
-        if (xhr.readyState === 4) {
-            classes = JSON.parse(xhr.responseText).records
-        }
-    };
-    xhr.send();
-}
-
 var fetchClasses = async () => {
     var res = (await fetch('/.netlify/functions/getClasses')).json()
     return res
