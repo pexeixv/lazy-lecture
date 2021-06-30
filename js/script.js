@@ -1,4 +1,4 @@
-var fetchClasses = () => {
+var _fetchClasses = () => {
     var url = `https://api.airtable.com/v0/appiaoTw3dT0mkQUJ/GoogleMeet?sort%5B0%5D%5Bfield%5D=id&sort%5B0%5D%5Bdirection%5D=asc`
     var AIRTABLE_API_KEY = 'keyLmJYlcyCYWbel0'
     var xhr = new XMLHttpRequest();
@@ -14,6 +14,12 @@ var fetchClasses = () => {
     };
     xhr.send();
 }
+
+var fetchClasses = async () => {
+    var res = (await fetch('/.netlify/functions/getClasses')).json()
+    return res
+}
+
 
 var renderClasses = () => {
     classes.forEach(clas => {
@@ -94,8 +100,15 @@ let counterNumber = document.querySelector('.counter_number')
 let counterPlus = document.querySelector('.counter_plus')
 let counterMinus = document.querySelector('.counter_minus')
 let container = document.querySelector('.container')
-var classes
-checkCounterInitial()
-checkColorModeInitial()
-fetchClasses()
-renderClasses()
+var classes = []
+
+
+var main = async () => {
+    checkCounterInitial()
+    checkColorModeInitial()
+    classes = await fetchClasses()
+    renderClasses()
+
+}
+
+main()
