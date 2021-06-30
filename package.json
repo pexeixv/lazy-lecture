@@ -3,10 +3,7 @@
     "netlify-cli": "^3.39.2"
   },
   "dependencies": {
-    "airtable": "^0.11.1",
-    "axios": "^0.21.1",
     "dotenv": "^10.0.0",
-    "xhr2": "^0.2.1",
     "xmlhttprequest": "^1.8.0"
   }
 }
