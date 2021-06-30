@@ -57,10 +57,10 @@ var checkCounterInitial = () => {
 var toggleColorMode = () => {
 
     if (document.body.classList.toggle('dark-mode')) {
-        document.querySelector('img.color-mode').src = '/img/sun.svg'
+        document.querySelector('img.color-mode').src = '/img/sun.png'
         localStorage.setItem('colorMode', 'dark')
     } else {
-        document.querySelector('img.color-mode').src = '/img/moon.svg'
+        document.querySelector('img.color-mode').src = '/img/moon.png'
         localStorage.setItem('colorMode', 'light')
     }
 
@@ -69,11 +69,11 @@ var toggleColorMode = () => {
 var checkColorModeInitial = () => {
     if (localStorage.getItem('colorMode') == 'dark') {
         document.body.classList.add('dark-mode')
-        document.querySelector('img.color-mode').src = '/img/sun.svg'
+        document.querySelector('img.color-mode').src = '/img/sun.png'
         localStorage.setItem('colorMode', 'dark')
     } else {
         document.body.classList.remove('dark-mode')
-        document.querySelector('img.color-mode').src = '/img/moon.svg'
+        document.querySelector('img.color-mode').src = '/img/moon.png'
         localStorage.setItem('colorMode', 'light')
     }
 }
