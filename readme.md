@@ -31,7 +31,7 @@ your Chowgule account is the 1st Google account that is logged in through the br
 
 ## Usage
 
-+ Type the word **meet** in address bar and hit `Tab` key
++ Type the word **`meet`** in address bar and hit `Tab` key
 + Follow with a class name and hit `Enter` key. (Usable class keywords are given below)
 
 ### Class keywords list
