@@ -1,6 +1,5 @@
 # <p align="center"><img width="400" src="./img/logo.png"></p>
 
-
 Easiest way to join lectures on Google Meet.
 
 ## Prerequisites
