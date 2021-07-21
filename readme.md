@@ -1,5 +1,5 @@
+# <p align="center"><img width="400" src="./img/logo.svg"></p>
 
-# Shortkurt
 
 Easiest way to join lectures on Google Meet.
 
