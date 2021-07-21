@@ -19,7 +19,7 @@ Easiest way to join lectures on Google Meet.
     | **Keyword**       | `meet`                               |
     | **URL**           | `shortkurt.gavinpereira.in/meet0/%s` |
 
-
+ 
 
 ### Note
 In case of multiple accounts on the browser, `meet0` in the URL assumes that
