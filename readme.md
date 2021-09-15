@@ -37,8 +37,6 @@ your Chowgule account is the 1st Google account that is logged in through the br
 
 | Keyword |                Course                |
 | :-----: | :----------------------------------: |
-|   cao   | Computer Architecture & Organization |
-|   mob   |        Mobile App Development        |
-|   ssp   |       Server-Side Programming        |
-|   hci   |       Human-Computer Interface       |
-|   sl    |          Scilab Programming          |
+|   os   | Operating Systems |
+|   st   |        Software Testing        |
+|   dbms   |       Database Management System II        |
