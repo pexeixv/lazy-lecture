@@ -40,3 +40,4 @@ your Chowgule account is the 1st Google account that is logged in through the br
 |   os   | Operating Systems |
 |   st   |        Software Testing        |
 |   dbms   |       Database Management System II        |
+|   ds   |       Introduction to Data Science        |
